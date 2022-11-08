@@ -1,0 +1,32 @@
+POST http://localhost:8080/api/account
+Content-Type: application/json
+
+{
+
+ "userName": "test2",
+ "password": "apple3"
+
+ }
+
+###
+GET http://localhost:8080/api/account
+
+###
+POST http://localhost:8080/api/cart
+Content-Type: application/json
+
+{
+  "userID": "3"
+
+}
+
+###
+PUT http://localhost:8080/api/cart?ID=4
+Content-Type: application/json
+
+{
+  "id": 5,
+  "userName": "test",
+  "password": "apple"
+
+}
